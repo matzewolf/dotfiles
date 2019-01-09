@@ -29,7 +29,7 @@ for file in $files; do
     mv ~/.$file ~/.dotfiles_old/
     echo "...done"
     echo "Creating symlink to $file in home directory."
-    ln -s $dir/$file ~/.$file
+    ln -sf $dir/$file ~/.$file
     echo "...done"
 done
 
