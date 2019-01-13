@@ -99,3 +99,6 @@ source $HOME/.bash_aliases
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add snap to PATH variable
+PATH=$PATH:/snap/bin
