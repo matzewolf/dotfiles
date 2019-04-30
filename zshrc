@@ -102,3 +102,8 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Add snap to PATH variable
 PATH=$PATH:/snap/bin
+
+#Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
